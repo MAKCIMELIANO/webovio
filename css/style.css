@@ -1,0 +1,237 @@
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #4D533C;
+    --tertiary-color: #B6C197;
+    --hover-color: #FFD723;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* Header */
+
+/* Slider */
+.slider {
+    background: #EAD7D3;
+}
+
+.slider-text {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.slider-title {
+    color: var(--primary-color);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.23;
+
+    width: 550px;
+}
+
+.slider-description {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.62;
+}
+
+.slider-button {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.62;
+}
+
+.slider-button:hover,
+.slider-button:focus {
+    color: var(--hover-color);
+}
+
+/* Deation & Evaluation  */
+
+.deation-evaluation-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.27;
+    /* 127.778% */
+
+    width: 590px;
+}
+
+.deation-evaluation-list {
+    list-style-type: none;
+}
+
+.deation-evaluation-item-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.41;
+    /* 141.667% */
+    text-transform: uppercase;
+}
+
+.deation-evaluation-item-description {
+    color: rgba(33, 56, 66, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.85;
+    /* 185.714% */
+}
+
+.deation-evaluation-item-button {
+    color: #D4D6D4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deation-evaluation-item-button:hover,
+.deation-evaluation-item-button:focus {
+    color: var(--hover-color);
+}
+
+/* Call to action */
+
+.call-to-action {
+    background-color: #FAFAFA;
+    box-shadow: 50px 130px 100px 0px rgba(0, 0, 0, 0.15);
+    width: 1275px;
+}
+
+.call-to-action-title {
+    visibility: hidden;
+}
+
+.call-to-action-description {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.23;
+    /* 123.333% */
+
+    width: 822px;
+}
+
+.call-to-action-button {
+    color: #D4D6D4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.call-to-action-button:hover,
+.call-to-action-button:focus {
+    color: var(--hover-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--secondary-color);
+
+}
+
+.footer-address-item-title {
+    color: var(--tertiary-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5;
+    /* 250% */
+}
+
+.footer-address-item-link {
+    text-decoration: none;
+
+    color: var(--primary-color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5;
+    /* 250% */
+}
+
+.footer-list-item-title {
+    color: var(--primary-color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.37;
+    /* 237.5% */
+    text-transform: uppercase;
+}
+
+.footer-list-item-link {
+    text-decoration: none;
+
+    color: var(--tertiary-color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5;
+    /* 250% */
+}
+
+.footer-title {
+    color: var(--primary-color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.37;
+    /* 237.5% */
+    text-transform: uppercase;
+}
+
+.footer-description {
+    color: var(--tertiary-color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5;
+    /* 250% */
+}
+
+.footer-email {
+    color: var(--primary-color);
+    text-decoration: none;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.58;
+    /* 158.333% */
+}
+
+.footer-email:hover,
+.footer-email:focus {
+    color: var(--hover-color);
+}
+
+.footer-copyright {
+    color: #B5C096;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
