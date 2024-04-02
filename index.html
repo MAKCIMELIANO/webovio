@@ -8,35 +8,46 @@
     <title>Webovio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="/index.html">
-                <img src="./images/webovio.png" alt="Webovio" />
-            </a>
-        </nav>
-    </header>
+
     <main>
         <!-- Slider -->
         <section class="slider">
-            <p class="slider-text">A place where</p>
-            <h1 class="slider-title">A creative agency for redemptive brands</h1>
-            <p class="slider-description">
-                Anteelo is a leading strategic design firm that builds powerful
-                digital solutions for startups and enterprises.
-            </p>
-            <a href="" class="slider-button">Get in touch</a>
+            <div class="container">
+                <nav class="slider-nav">
+                    <a href="/index.html" class="footer-logo-link">
+                        <svg class="footer-logo-icon">
+                            <use href="./images/svg-image/icomoon/symbol-defs.svg#icon-logo-image"></use>
+                        </svg>
+                        <span class="logo">webovio</span>
+                    </a>
+                </nav>
+                <p class="slider-text">A place where</p>
+                <h1 class="slider-title">A creative agency for redemptive brands</h1>
+                <p class="slider-description">
+                    Anteelo is a leading strategic design firm that builds powerful
+                    digital solutions for startups and enterprises.
+                </p>
+                <a href="" class="slider-button">Get in touch</a>
+            </div>
         </section>
         <!-- Deation & Evaluation -->
-        <section class="deation-evaluation">
+        <section class="deation-evaluation container">
             <h2 class="deation-evaluation-title">Deation & Evaluation - Best Way to Kick off Your Product Idea</h2>
             <ul class="deation-evaluation-list reset-marker">
                 <li class="deation-evaluation-item">
-                    <h3 class="deation-evaluation-item-title">Product Design Sprint</h3>
+                    <h3 class="deation-evaluation-item-title">
+                        <span class="ux">Product</span>
+                        <br>
+                        <span class="review">Design sprint</span>
+                    </h3>
                     <p class="deation-evaluation-item-description">
                         A five-day workshop that will help you answer crucial business
                         questions
@@ -44,7 +55,11 @@
                     <a href="" class="deation-evaluation-item-button">Read More</a>
                 </li>
                 <li class="deation-evaluation-item">
-                    <h3 class="deation-evaluation-item-title">Scoping Session</h3>
+                    <h3 class="deation-evaluation-item-title">
+                        <span class="ux">Scoping</span>
+                        <br>
+                        <span class="review">Session</span>
+                    </h3>
                     <p class="deation-evaluation-item-description">
                         A workshop aimed at shaping your business idea, answering
                         questions regarding project planning
@@ -52,14 +67,22 @@
                     <a href="" class="deation-evaluation-item-button">Read More</a>
                 </li>
                 <li class="deation-evaluation-item">
-                    <h3 class="deation-evaluation-item-title">UX Review</h3>
+                    <h3 class="deation-evaluation-item-title">
+                        <span class="ux">UX</span>
+                        <br>
+                        <span class="review">Review</span>
+                    </h3>
                     <p class="deation-evaluation-item-description">
                         An evaluation which will help you radically improve your product.
                     </p>
                     <a href="" class="deation-evaluation-item-button">Read More</a>
                 </li>
                 <li class="deation-evaluation-item">
-                    <h3 class="deation-evaluation-item-title">Code Review</h3>
+                    <h3 class="deation-evaluation-item-title">
+                        <span class="ux">Code</span>
+                        <br>
+                        <span class="review">Review</span>
+                    </h3>
                     <p class="deation-evaluation-item-description">
                         Do you know what one of the key secrets of success is what makes
                         people successful in business
@@ -69,15 +92,17 @@
             </ul>
         </section>
         <!-- Call to action -->
-        <section class="call-to-action">
-            <h2 class="call-to-action-title">Call to action</h2>
-            <p class="call-to-action-description">Let's make something amazing together.</p>
-            <a href="" class="call-to-action-button">LET'S GET STARTED</a>
+        <section class="call-to-action ">
+            <div class="container">
+                <h2 class="call-to-action-title">Call to action</h2>
+                <p class="call-to-action-description ">Let's make something amazing together.</p>
+                <a href="" class="call-to-action-button ">LET'S GET STARTED</a>
+            </div>
         </section>
     </main>
     <!-- Footer -->
     <footer class="footer">
-        <address class="footer-address">
+        <address class="footer-address container">
             <ul class="footer-address-list">
                 <li class="footer-address-item">
                     <p class="footer-address-item-title">Phone</p>
@@ -89,7 +114,7 @@
                 </li>
             </ul>
         </address>
-        <ul class="footer-list">
+        <ul class="footer-list container">
             <li class="footer-list-item">
                 <b class="footer-list-item-title">Services</b>
                 <a href="" class="footer-list-item-link">Strategy Design</a>
@@ -112,20 +137,44 @@
                 <a href="" class="footer-list-item-link">Contact</a>
                 <a href="" class="footer-list-item-link">Jobs</a>
             </li>
+            <li class="footer-list-item">
+                <b class="footer-list-item-title">Get in Touch</b>
+                <p class="footer-description">Feel free to get in touch with us vai email</p>
+                <a href="" class="footer-email">info.webovio@gmail.com</a>
+                <ul class="footer-social-list">
+                    <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Facebook">
+                            <svg class="footer-social-icon">
+                                <use href="./images/svg-image/icomoon/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a></li>
+                    <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Twitter">
+                            <svg class="footer-social-icon">
+                                <use href="./images/svg-image/icomoon/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a></li>
+                    <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Google">
+                            <svg class="footer-social-icon">
+                                <use href="./images/svg-image/icomoon/symbol-defs.svg#icon-google"></use>
+                            </svg>
+                        </a></li>
+                    <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Linkedin">
+                            <svg class="footer-social-icon">
+                                <use href="./images/svg-image/icomoon/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a></li>
+                </ul>
+            </li>
         </ul>
-        <b class="footer-title">Get in Touch</b>
-        <p class="footer-description">Feel free to get in touch with us vai email</p>
-        <a href="" class="footer-email">info.webovio@gmail.com</a>
-        <ul class="footer-social-list">
-            <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Facebook"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Twitter"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Google"></a></li>
-            <li class="footer-social-item"><a href="" class="footer-social-link" aria-label="Linkedin"></a></li>
-        </ul>
-        <a href="/index.html">
-            <img src="./images/webovio.png" alt="Webovio" />
-        </a>
-        <p class="footer-copyright">&copy; 2020@webovio. All Rights Reserved.</p>
+
+        <div class="footer-logo container">
+            <a href="/index.html" class="footer-logo-link">
+                <svg class="footer-logo-icon">
+                    <use href="./images/svg-image/icomoon/symbol-defs.svg#icon-logo-image"></use>
+                </svg>
+                <span class="logo">webovio</span>
+            </a>
+            <p class="footer-copyright">&copy; 2020@webovio. All Rights Reserved.</p>
+        </div>
     </footer>
 
 </body>
